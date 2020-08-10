@@ -1,0 +1,33 @@
+/* reset */
+*{margin: 0; padding: 0; font-size: 18px;}
+a {color: #333; text-decoration: none;}
+li {list-style: none;}
+table {border-spacing: 0;}
+.clearfix::before, .clearfix::after {display: block; content:''; clear:both;}
+
+#wrap {width: 1000px; margin: 0px auto;}
+
+/* header */
+#header h1 {float: left; padding: 15px 0 10px;}
+#header h1 img {width: 200px;}
+#header .nav {float: right; background: #e7d1ff;}
+#header .nav li {position: relative; float: left; width: 160px; text-align: center;}
+#header .nav li a {display: block; font-size: 20px; font-weight: bold; padding: 24px 20px 20px 20px;}
+#header .nav li ul.submenu {display: none; position: absolute; left: 0; top: 67px; z-index: 100;}
+#header .nav li ul.submenu li a {padding: 10px; background: #e6c9ff;}
+#header .nav li ul.submenu a:hover {background: #be95eb}
+
+/* banner */
+#banner {overflow: hidden; margin-top: 15px;}
+#banner .main {margin-bottom: 20px;}
+#banner img {width: 100%; display: block;}
+
+/* footer */
+#footer {padding: 20px 0; background: #202020; margin-top: 30px;}
+#footer h2 {float: left; padding-left: 20px;}
+#footer h2 img {width: 150px;}
+#footer .foot {float: right; padding-right: 20px;}
+#footer .foot ul {padding-bottom: 10px;}
+#footer .foot ul li {display: inline;}
+#footer .foot ul li a {color: #fff; padding-right: 15px;}
+#footer .foot address {text-align: right; font-style: normal; color: #777; margin-right: 14px}
